@@ -5,7 +5,7 @@ import  BaseEntity  from './Entity';
 import Sub from './Sub';
 import  Vote  from './Vote';
 import  User  from './User';
-import { slugify } from './../utils/helpers';
+import { slugify } from '../utils/helpers';
 import { Comment } from './Comment';
 
 @Entity("posts")
