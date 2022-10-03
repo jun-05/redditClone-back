@@ -40,6 +40,7 @@ const register = async (req:Request,res:Response) =>{
 
         //userTable에 저장
         await user.save();
+        user.password=null;
 
         return res.json(user)
     }catch(error){
